@@ -82,7 +82,7 @@ function Header({type}) {
                 {type !== "hList" && (
                     <>
                         
-                    <h1 >Amazing hostel for the free spirited traveler.</h1>
+                    <h1 >Amazing hotel for the free spirited traveler.</h1>
                     <p>
                         A life time of discounts? - We have everything you need. It&apos;s simple: the
                         longer you stay, the more you save!

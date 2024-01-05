@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useContext, useState } from 'react';
 import { FaGripLines, FaHome, FaNewspaper, FaTimes } from 'react-icons/fa';
-import { MdLocalHotel, MdLocalTaxi, MdMapsHomeWork } from 'react-icons/md';
+import { MdLocalHotel, MdLocalTaxi, MdMapsHomeWork, MdMotionPhotosAuto } from 'react-icons/md';
 import { Contexts } from '../../ContextUser/Contexts';
 import style from './Navbar.module.scss';
 
@@ -43,7 +43,14 @@ function Navbar() {
             icon: <MdLocalTaxi className={style.icon} />,
             txt: 'Taxis',
             isActive: false,
-            href: '/',
+            href: '/taxis',
+        },
+        {
+            id: 6,
+            icon: <MdMotionPhotosAuto className={style.icon} />,
+            txt: 'Photography',
+            isActive: false,
+            href: '/photography',
         },
     ];
 
@@ -61,7 +68,7 @@ function Navbar() {
                 <Link href="/">
                     <div className={style.nav_brand}>
                         <h2>
-                            <MdLocalHotel size={30} style={{ marginRight: '5px' }} /> Rooms
+                            <MdLocalHotel size={30} style={{ marginRight: '5px' }} /> Explore&GO
                         </h2>
                     </div>
                 </Link>

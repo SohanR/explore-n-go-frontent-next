@@ -26,7 +26,7 @@ function SocialLink({
                 required
             />
             <p
-                clasName={style.form_err}
+                className={style.form_err}
                 style={{ color: 'red', marginTop: '-13px', fontSize: '14px', marginBottom: '10px' }}
             >
                 Phone is required.
@@ -39,7 +39,7 @@ function SocialLink({
                 onChange={facebookUrlChng}
             />
             <p
-                clasName={style.form_err}
+                className={style.form_err}
                 style={{ color: 'red', marginTop: '-13px', fontSize: '14px', marginBottom: '10px' }}
             >
                 Facebook is required.

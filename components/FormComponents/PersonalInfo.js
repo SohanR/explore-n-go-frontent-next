@@ -20,7 +20,7 @@ function PersonalInfo({ fnVal, lnVal, unVal, fnChng, lnChng, usChng }) {
                 focused={focus.toString()}
             />
             <p
-                clasName={style.form_err}
+                className={style.form_err}
                 style={{ color: 'red', marginTop: '-13px', fontSize: '14px', marginBottom: '10px' }}
             >
                 Name is required!
@@ -36,7 +36,7 @@ function PersonalInfo({ fnVal, lnVal, unVal, fnChng, lnChng, usChng }) {
                 pattern="^[A-Za-z0-9]{5,15}$"
             />
             <p
-                clasName={style.form_err}
+                className={style.form_err}
                 style={{ color: 'red', marginTop: '-13px', fontSize: '14px', marginBottom: '10px' }}
             >
                 Username should be 5-15 characters and should not include any special character!
@@ -51,7 +51,7 @@ function PersonalInfo({ fnVal, lnVal, unVal, fnChng, lnChng, usChng }) {
                 focused={focus.toString()}
             />
             <p
-                clasName={style.form_err}
+                className={style.form_err}
                 style={{ color: 'red', marginTop: '-13px', fontSize: '14px', marginBottom: '10px' }}
             >
                 Country is required!

@@ -22,7 +22,7 @@ function Email({ eVal, pVal, cVal, cChng, eChng, pChng }) {
                 focused={focus.toString()}
             />
             <p
-                clasName={style.form_err}
+                className={style.form_err}
                 style={{ color: 'red', marginTop: '-13px', fontSize: '14px', marginBottom: '10px' }}
             >
                 Provide a valid email address
@@ -38,7 +38,7 @@ function Email({ eVal, pVal, cVal, cChng, eChng, pChng }) {
                 pattern="^(?=.*[0-9])(?=.*[A-Za-z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{5,15}$"
             />
             <p
-                clasName={style.form_err}
+                className={style.form_err}
                 style={{ color: 'red', marginTop: '-13px', fontSize: '14px', marginBottom: '10px' }}
             >
                 Password should be 5-15 characters and include at last 1 letter, 1 number and 1
@@ -55,7 +55,7 @@ function Email({ eVal, pVal, cVal, cChng, eChng, pChng }) {
                 pattern={pVal}
             />
             <p
-                clasName={style.form_err}
+                className={style.form_err}
                 style={{ color: 'red', marginTop: '-13px', fontSize: '14px', marginBottom: '10px' }}
             >
                 Password doesn&apos;t matched
